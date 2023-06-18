@@ -1,6 +1,26 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
+:root {
+    --color-bg-primary: hsl(0, 0%, 91%);
+    --color-bg-secondary: #ffe500;
+    --color-bg-tertiary: #636363;
+    --color-bg-quaternary: #0caf1d;
+
+    --color-card-bg: #fff;
+    --color-card-border: #d9d9d9;
+
+    --color-btn-primary: #3483fa;
+    --color-btn-inverse: #fff;
+
+    --color-font-primary: #636363;
+    --color-font-secondary: #0caf1d;
+    --color-font-tertiary: #fff;
+    --color-font-placeholder: #d9d9d9;
+
+    --color-error: #f33;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,7 +36,7 @@ a:hover {
 
 html,
 body {
-    background-color: #e8e8e8;
+    background-color: var(--color-bg-primary);
 }
 
 main {
@@ -26,7 +46,7 @@ main {
 header {
     display: flex;
     align-items: center;
-    background-color: #FFE500;
+    background-color: var(--color-bg-secondary);
     height: 70px;
 }
 
@@ -34,7 +54,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #636363;
+    color: var(--color-bg-tertiary);
     padding: 0 20px;
 }
 
@@ -45,14 +65,14 @@ nav {
 }
 
 .card {
-    background-color: #FFF;
+    background-color: var(--color-card-bg);
     border-radius: 4px;
-    border: 1px solid #D9D9D9;
+    border: 1px solid var(--color-card-border);
     margin: 20px;
 }
 
 .line-bottom {
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid var(--color-card-border);
 }
 
 .btn-page-container {
@@ -74,14 +94,16 @@ nav {
 }
 
 .btn-blue {
-    background-color: #3483FA;
-    color: #FFF;
+    background-color: var(--color-btn-primary);
+    color: var(--color-btn-inverse);
+    cursor: pointer;
 }
 
 .btn-white {
-    color: #3483FA;
-    background-color: #FFF;
-    border: 1px solid #3483FA;
+    color: var(--color-btn-primary);
+    background-color: var(--color-btn-inverse);
+    border: 1px solid var(--color-btn-primary);
+    cursor: pointer;
 }
 
 .mt-20 {
