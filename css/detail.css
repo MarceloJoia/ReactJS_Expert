@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import url("styles.css");
 
-.category {
+.dsc-category {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,35 +15,35 @@
     cursor: pointer;
 }
 
-.category-container {
+.dsc-category-container {
     display: flex;
     width: 100%;
     max-width: 140px;
 }
 
-.product-detail-top {
+.dsc-product-detail-top {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
 
-.product-detail-top img {
+.dsc-product-detail-top img {
     width: 100%;
     max-width: 250px;
 }
 
-.product-detail-bottom h3 {
+.dsc-product-detail-bottom h3 {
     color: var(--color-font-secondary);
     font-size: 20px;
 }
 
-.product-detail-bottom h4 {
+.dsc-product-detail-bottom h4 {
     color: var(--color-bg-tertiary);
     font-size: 12px;
 }
 
-.product-detail-botton p {
+.dsc-product-detail-botton p {
     padding: 10px 0;
     font-size: 12px;
     color: var(--color-bg-tertiary);
