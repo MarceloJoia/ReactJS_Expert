@@ -1,0 +1,18 @@
+@charset "utf-8";
+@import url("styles.css");
+@import url("cart.css");
+
+.dsc-confirmation-message {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-font-primary);
+    text-align: center;
+}
+
+@media(min-width: 576px) {
+    .dsc-confirmation-message {
+        font-size: 24px;
+        text-align: left;
+    }
+
+}

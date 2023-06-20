@@ -111,6 +111,17 @@ nav a {
   font-weight: 700;
 }
 
+.dsc-logged-user {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.dsc-logged-user p{
+  font-size: 12px;
+  font-weight: 400;
+}
+
 
 /***********************************************/
 /* card style */
