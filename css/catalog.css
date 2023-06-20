@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url("styles.css");
+
+
+.dsc-catalog-cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+}
+
+/***********************************************/
+/* generic style */
+
+.dsc-font-bold {
+  font-weight: 700;
+}
+
+
+/***********************************************/
+/* catalog style */
+
+.dsc-product-img img {
+  width: 100%;
+  max-width: 150px;
+}
+
+
+/***********************************************/
+/* botton style */
+
+.dsc-product-detail-botton {
+  min-height: 100px;
+}
+
+.dsc-product-detail-botton h3 {
+  color: var(--color-font-secondary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.dsc-product-detail-botton h4 {
+  color: var(--color-font-primary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media(min-width: 576px) {}

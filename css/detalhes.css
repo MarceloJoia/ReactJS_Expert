@@ -21,24 +21,17 @@
     max-width: 140px;
 }
 
-.dsc-product-detail-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.dsc-product-detail-top img {
+.dsc-product-img img {
     width: 100%;
     max-width: 250px;
 }
 
-.dsc-product-detail-bottom h3 {
+.dsc-product-detail-botton h3 {
     color: var(--color-font-secondary);
     font-size: 20px;
 }
 
-.dsc-product-detail-bottom h4 {
+.dsc-product-detail-botton h4 {
     color: var(--color-bg-tertiary);
     font-size: 12px;
 }
